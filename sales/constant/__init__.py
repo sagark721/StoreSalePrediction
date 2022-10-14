@@ -1,0 +1,8 @@
+#Data ingestion related constants
+
+DATA_INGESTION_CONFIG_KEY = "data_ingestion_config"
+DATA_INGESTION_DATASET_DOWNLOAD_URL_KEY="dataset_download_url"
+DATA_INGESTION_TEST_DATA_DOWNLOAD_URL_KEY = "test_dataset_download_url"
+DATA_INGESTION_INGESTED_DATA_DIR_KEY="ingested_data_dir"
+DATA_INGESTION_INGESTED_TRAIN_DATA_DIR_KEY="ingested_train_dir"
+DATA_INGESTION_INGESTED_TEST_DATA_DIR_KEY="ingested_test_dir" 
