@@ -1,4 +1,8 @@
 
+training_pipeline_config:
+  pipeline_name : "sales"
+  artifact_dir : "artifact"
+
 data_ingestion_config:
   dataset_download_url: https://raw.githubusercontent.com/sagark721/Datasets/main/Train.csv
   test_dataset_download_url: https://raw.githubusercontent.com/sagark721/Datasets/main/Test.csv
