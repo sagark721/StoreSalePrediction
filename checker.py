@@ -1,9 +1,7 @@
 from sales.component.data_ingestion import DataIngestion
+from sales.config.configuration import Configuration
 
 
+data_ingestion_config= Configuration().get_data_ingestion_config()
 
-
-dataset_download_url= "https://raw.githubusercontent.com/sagark721/Datasets/main/Train.csv"
-test_dataset_download_url= "https://raw.githubusercontent.com/sagark721/Datasets/main/Test.csv"
-
-DataIngestion.download_dataset(dataset_download_url=dataset_download_url)
+DataIngestion(data_ingestion_config).download_dataset()

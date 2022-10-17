@@ -4,8 +4,14 @@ training_pipeline_config:
   artifact_dir : "artifact"
 
 data_ingestion_config:
-  dataset_download_url: https://raw.githubusercontent.com/sagark721/Datasets/main/Train.csv
+  train_dataset_download_url: https://raw.githubusercontent.com/sagark721/Datasets/main/Train.csv
   test_dataset_download_url: https://raw.githubusercontent.com/sagark721/Datasets/main/Test.csv
   ingested_data_dir: "Ingested_data"
   ingested_train_dir: "Train_data"
-  ingested_test_dir: "Test_data" 
+  ingested_test_dir: "Test_data"
+
+data_validation_config:
+  schema_file_name : "schema.yaml"
+  schema_dir: "config"
+
+
